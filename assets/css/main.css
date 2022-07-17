@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2402,6 +2396,85 @@ input, select, textarea {
 					#nav a:hover {
 						background-color: transparent;
 					}
+
+		/* Main Nav */
+
+			#main_nav {
+				position: absolute;
+				right: 2em;
+				top: 0;
+				line-height: 5.5em;
+			}
+
+				#main_nav > ul > li {
+					float: left;
+					padding: 0 0.8em 0 0.8em;
+				}
+
+					#main_nav > ul > li > a, #main_nav > ul > li > span {
+						color: #fff;
+						text-decoration: none;
+						text-transform: uppercase;
+						font-weight: 800;
+						font-size: 0.95em;
+						letter-spacing: 0.075em;
+						padding: 0.5em 0.8em 0.5em 0.8em;
+						border-radius: 6px;
+						outline: 0;
+					}
+
+					#main_nav > ul > li.active > a,
+					#main_nav > ul > li.current_page_item > a,
+					#main_nav > ul > li.active > span,
+					#main_nav > ul > li.current_page_item > span {
+						background: rgba(0, 0, 0, 0.15);
+						box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025), 1px 1px 0px 0px rgba(255, 255, 255, 0.025);
+					}
+
+					#main_nav > ul > li:last-child {
+						padding-right: 0;
+					}
+
+					#main_nav > ul > li > ul {
+						display: none;
+					}
+
+			.dropotron {
+				background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+				background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+				background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+				background-image: linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+				position: relative;
+				background-color: #3B3E45;
+				background-color: rgba(59, 62, 69, 0.9);
+				border-radius: 8px;
+				box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
+				text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+				padding: 1.5em;
+				line-height: 2.5em;
+				min-width: 15em;
+			}
+
+				.dropotron.level-0 {
+					border-top-left-radius: 0;
+					border-top-right-radius: 0;
+					margin-top: -2px;
+					box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
+				}
+
+				.dropotron a, .dropotron span {
+					color: #aaa;
+					text-decoration: none;
+					text-transform: uppercase;
+					font-weight: 800;
+					font-size: 0.8em;
+					letter-spacing: 0.075em;
+					outline: 0;
+				}
+
+				.dropotron li:hover > a, .dropotron li:hover > span {
+					color: #fff;
+				}
 
 		/* Articles */
 
