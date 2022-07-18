@@ -16,13 +16,13 @@
 .u-section-1 .u-image-1 {
   width: 570px;
   height: 308px;
-  margin: 30px auto 0;
+  margin: 18px auto 0;
 }
 
 .u-section-1 .u-text-3 {
   font-weight: 700;
   line-height: 1.6;
-  margin: 30px 0 0;
+  margin: 24px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -32,7 +32,7 @@
 
 .u-section-1 .u-text-4 {
   font-weight: 700;
-  margin: 46px 0 0;
+  margin: 64px 0 0;
 }
 
 .u-section-1 .u-image-2 {
@@ -44,7 +44,7 @@
 .u-section-1 .u-text-5 {
   font-weight: 700;
   line-height: 1.6;
-  margin: 30px 0 55px;
+  margin: 24px 0 60px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -60,6 +60,8 @@
   .u-section-1 .u-image-1 {
     width: 540px;
     height: 292px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -76,7 +78,7 @@
   .u-section-1 .u-image-2 {
     width: 340px;
     height: 229px;
-    margin-top: -299px;
+    margin-top: 20px;
   }
 
   .u-section-1 .u-text-5 {
