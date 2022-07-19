@@ -31,14 +31,13 @@
 }
 
 .u-section-1 .u-text-4 {
-  font-weight: 700;
-  margin: 64px 0 0;
+  margin: 43px 0 0;
 }
 
 .u-section-1 .u-image-2 {
   width: 531px;
   height: 357px;
-  margin: 30px auto 0;
+  margin: 43px auto 0;
 }
 
 .u-section-1 .u-text-5 {
@@ -50,6 +49,12 @@
 .u-section-1 .u-btn-2 {
   background-image: none;
   padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-4 {
+    font-weight: normal;
+  }
 }
 
 @media (max-width: 767px) {
