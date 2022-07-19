@@ -10,7 +10,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 454px;
+    min-height: 455px;
   }
 
   .u-section-1 .u-image-1 {
@@ -21,7 +21,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 338px;
+    min-height: 339px;
   }
 
   .u-section-1 .u-image-1 {
@@ -32,7 +32,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 243px;
+    min-height: 244px;
   }
 
   .u-section-1 .u-image-1 {
@@ -43,7 +43,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 137px;
+    min-height: 138px;
   }
 
   .u-section-1 .u-image-1 {
@@ -61,7 +61,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 744px;
-  background-image: url("images/AnkitaRathoreDP1.jpg");
+  background-image: url("images/AnkitaRathoreDP2.jpg");
   background-position: 50% 50%;
 }
 
