@@ -179,7 +179,7 @@
 
 .u-section-3 .u-text-1 {
   font-weight: 700;
-  margin: 90px auto 0 137px;
+  margin: 63px 615px 0 137px;
 }
 
 .u-section-3 .u-list-1 {
@@ -201,14 +201,14 @@
 .u-section-3 .u-image-1 {
   width: 163px;
   height: 163px;
-  background-image: url("images/pexels-photo-9392381.jpeg");
+  background-image: url("images/1.png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 0 28px 0 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-2 {
@@ -227,14 +227,14 @@
 .u-section-3 .u-image-2 {
   width: 163px;
   height: 163px;
-  background-image: url("images/pexels-photo-6766628.jpeg");
+  background-image: url("images/2.png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 0 28px 0 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-3 {
@@ -253,14 +253,14 @@
 .u-section-3 .u-image-3 {
   width: 163px;
   height: 163px;
-  background-image: url("images/pexels-mathilde-langevin-11843703.jpg");
+  background-image: url("images/3.png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 0 28px 0 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-4 {
@@ -276,6 +276,7 @@
   .u-section-3 .u-text-1 {
     width: auto;
     margin-top: 91px;
+    margin-right: 515px;
     margin-left: 37px;
   }
 
@@ -290,6 +291,7 @@
   }
 
   .u-section-3 .u-text-1 {
+    margin-right: 332px;
     margin-left: 0;
   }
 
@@ -323,6 +325,10 @@
     min-height: 1097px;
   }
 
+  .u-section-3 .u-text-1 {
+    margin-right: 152px;
+  }
+
   .u-section-3 .u-list-1 {
     margin-bottom: -42px;
     width: auto;
@@ -338,6 +344,10 @@
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
     min-height: 1237px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-right: 0;
   }
 
   .u-section-3 .u-list-1 {
