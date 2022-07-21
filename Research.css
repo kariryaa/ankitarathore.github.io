@@ -32,11 +32,7 @@
 
 .u-section-1 .u-text-2 {
   font-style: italic;
-  margin: 19px 2px 0 0;
-}
-
-.u-section-1 .u-btn-1 {
-  padding: 0;
+  margin: 19px 1px 0;
 }
 
 .u-section-1 .u-list-item-2 {
@@ -59,11 +55,7 @@
 
 .u-section-1 .u-text-4 {
   font-style: italic;
-  margin: 19px 2px 0 0;
-}
-
-.u-section-1 .u-btn-2 {
-  padding: 0;
+  margin: 19px 1px 0;
 }
 
 @media (max-width: 1199px) {
@@ -82,10 +74,12 @@
   }
 
   .u-section-1 .u-text-2 {
+    margin-left: 0;
     margin-right: 0;
   }
 
   .u-section-1 .u-text-4 {
+    margin-left: 0;
     margin-right: 0;
   }
 }
